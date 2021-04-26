@@ -2,7 +2,7 @@
 name = "bad-bot"
 version = "0.1.0"
 description = ""
-authors = ["semajcju goaway@nonoya.com"]
+authors = ["semajcju dont contact me"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
