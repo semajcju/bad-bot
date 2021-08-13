@@ -8,6 +8,6 @@ There is no better way to do this than with this bot.
 
 ##Features
 
- *works (nope)
- *modular (working)
- *private dms (in progress)
+ * works (nope)
+ * modular (working)
+ * private dms (in progress)
