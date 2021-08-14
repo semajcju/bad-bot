@@ -12,8 +12,15 @@ client = discord.Client()
 async def on_ready():
   print('we have logged in as {0.user}'.format(client))
 
-
-
+@client.event
+def printfile(script):
+  file = open(script)
+  lines = file.readlines()
+  linenum = 0
+  for line in lines:
+    await message.channel.send(line)
+    linenum + 1
+    time.sleep(1)
 
 @client.event
 async def on_message(message):
@@ -29,7 +36,7 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        await message.channel.send(line)
+        message.author.send(line)
         linenum + 1
         time.sleep(1)
     elif option == 2:
@@ -48,9 +55,6 @@ async def on_message(message):
         await message.channel.send(line)
         linenum + 1
         time.sleep(1)
-    
-
-    
 
 
 
