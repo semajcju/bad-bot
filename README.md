@@ -11,3 +11,7 @@ There is no better way to do this than with this bot.
  * works (nope)
  * modular (working)
  * private dms (in progress)
+
+## Usage
+
+Feel free to use any of my code as long as you credit me.
