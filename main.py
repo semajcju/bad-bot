@@ -23,7 +23,7 @@ async def on_ready():
 #    time.sleep(1)
 
 @client.event
-async def on_message(message):
+async def dm(message):
   if message.author == client.user:
     return
 
@@ -44,7 +44,7 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        await message.channel.send(line)
+        await message.author.send(line)
         linenum + 1
         time.sleep(1)
     elif option == 3:
@@ -52,7 +52,7 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        await message.channel.send(line)
+        await message.author.send(line)
         linenum + 1
         time.sleep(1)
 
