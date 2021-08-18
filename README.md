@@ -6,7 +6,7 @@ Now you could just limit there permissions so they don't have access to that pin
 
 There is no better way to do this than with this bot.
 
-To invite this to your own server then go to the top.gg link
+To invite this to your own server then go to the top.gg [link](https://youtu.be/dQw4w9WgXcQ) (the top.gg link hasn't been verified yet and there is currently no way to add this bot to your server without hosting it yourself)
 
  ## Features
 
