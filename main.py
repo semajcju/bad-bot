@@ -52,7 +52,7 @@ async def dm(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        await message.author.send(line)
+        await message.channel.send(line)
         linenum + 1
         time.sleep(1)
 
