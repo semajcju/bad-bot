@@ -36,7 +36,7 @@ async def dm(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        message.author.send(line)
+        message.channel.send(line)
         linenum + 1
         time.sleep(1)
     elif option == 2:
@@ -44,7 +44,7 @@ async def dm(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
-        await message.author.send(line)
+        await message.channel.send(line)
         linenum + 1
         time.sleep(1)
     elif option == 3:

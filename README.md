@@ -6,11 +6,15 @@ Now you could just limit there permissions so they don't have access to that pin
 
 There is no better way to do this than with this bot.
 
+To invite this to your own server then go to the top.gg link
+
  ## Features
 
- * works (nope)
+ * works (working)
  * modular (working)
  * private dms (in progress)
+ * immunity (nope)
+
 
 ## Usage
 
