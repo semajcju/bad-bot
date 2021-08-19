@@ -13,7 +13,9 @@ To invite this to your own server then go to the top.gg [link](https://youtu.be/
  * works (working)
  * modular (working)
  * private dms (in progress)
- * immunity (nope)
+ * immunity (kina)
+ * garbage code (always)
+
 
 
 ## Usage

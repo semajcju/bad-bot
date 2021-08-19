@@ -3,9 +3,19 @@ import os
 import time
 import random
 
+from discord import message
 
+cancel = False
 
 client = discord.Client()
+
+@client.event
+async def cancel():
+  if message.author == client.user:
+    return
+  
+  if message.startswith('!cancel'):
+    cancel = True
 
 
 @client.event
@@ -36,6 +46,9 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
+        if cancel == True:
+          cancel == False
+          break
         await message.channel.send(line)
         linenum + 1
         time.sleep(1)
@@ -44,6 +57,9 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
+        if cancel == True:
+          cancel == False
+          break
         await message.channel.send(line)
         linenum + 1
         time.sleep(1)
@@ -52,6 +68,9 @@ async def on_message(message):
       lines = file.readlines()
       linenum = 0
       for line in lines:
+        if cancel == True:
+          cancel == False
+          break
         await message.channel.send(line)
         linenum + 1
         time.sleep(1)
