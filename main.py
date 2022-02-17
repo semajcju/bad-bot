@@ -40,7 +40,7 @@ async def on_message(message):
 
   msg = message.content
 
-  if msg.startswith('@everyone'):
+  if msg.startswith('@everyone') or msg.startswith('cant'):
     option = random.randint(1, 3)
     if option == 1:
       file = open("bee movie.txt")
